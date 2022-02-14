@@ -94,6 +94,7 @@
     font-family: soleil, sans-serif;
     font-weight: 400;
     font-style: normal;
+    
 }
 #servLogo{
     position: absolute;
@@ -108,10 +109,4 @@
     left: 220px;
     width: 7px;
     height: 12px;
-}
-.div2 {
-    width: 256px;
-    padding-left: 24px;
-    color: white;
-
 }

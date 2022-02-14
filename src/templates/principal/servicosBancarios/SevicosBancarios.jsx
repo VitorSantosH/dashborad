@@ -2,7 +2,9 @@ import React, { useState, useEffect } from 'react';
 
 import "./SevicosBancarios.css"
 import marcador from '../../../assets/Rectangle 5976.png';
-import arrow from '../../../assets/arrow-edit.png'
+import arrow from '../../../assets/arrow-edit.png';
+import MinhaConta from './MinhaConta';
+
 
 const ServicosBancarios = () => {
 
@@ -20,8 +22,7 @@ const ServicosBancarios = () => {
     const desmarcado = { color: "white", display: 'none' }
 
     function dropdown() {
-        console.log("aqui")
-        console.log(display)
+       
         if (display == "block") {
             setDisplay("none");
         } else (
@@ -41,7 +42,7 @@ const ServicosBancarios = () => {
 
 
 
-        console.log(importante)
+      
         if (importante == 1) {
             console.log('imp')
             setStyle1({ ...Marcado });
@@ -93,14 +94,14 @@ const ServicosBancarios = () => {
 
                 <span onClick={e => dropdown()} id="labelServ" >Serviços Bancários</span>
                 {display != "none" && (
-                    <svg xmlns="http://www.w3.org/2000/svg" width="11.692" id="servLogo" height="6.769" viewBox="0 0 11.692 6.769">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="11.692" onClick={e => dropdown()} id="labelServ" id="servLogo" height="6.769" viewBox="0 0 11.692 6.769">
                         <g id="arrow-point-to-right" transform="translate(11.94) rotate(90)">
                             <path id="Path_8214" data-name="Path 8214" d="M6.526,6.425,1.42,11.452a.841.841,0,0,1-1.176,0,.81.81,0,0,1,0-1.158L4.762,5.846.244,1.4A.81.81,0,0,1,.244.24.841.841,0,0,1,1.42.24L6.526,5.267a.81.81,0,0,1,0,1.158Z" transform="translate(0 0.248)" fill="#38d2d9" />
                         </g>
                     </svg>
                 )}
                 {display == "none" && (
-                    <img src={arrow} alt="" id="servLogo2" />
+                    <img src={arrow} alt="" id="servLogo2" onClick={e => dropdown()} />
                 )}
 
                 <br />
@@ -122,7 +123,7 @@ const ServicosBancarios = () => {
 
                     </div>
 
-                    <div className="cobrar" style={style2}>
+                    <div className="cobrar" key={2} style={style2}>
 
                         <img src={marcador} alt="" className="marcador" style={{ display: style2.display }} />
 
@@ -140,6 +141,8 @@ const ServicosBancarios = () => {
                         </span>
 
                     </div>
+                    
+
 
 
                     <div className="realizarPix">
@@ -209,7 +212,8 @@ const ServicosBancarios = () => {
                 </div>
 
             </div>
-            <div className="div2" >2</div>
+            
+            <MinhaConta className="div2"/>
         </div>
     )
 }

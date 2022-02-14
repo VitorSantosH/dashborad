@@ -1,0 +1,67 @@
+.minhaConta {
+    margin-top: 20px;
+    color: white;
+    font-family: soleil, sans-serif;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    font-weight: 400;
+    font-style: normal;
+    font: soleil;
+
+}
+#contaLabel{
+    margin-left: 24px;
+    padding-bottom: 10px;
+}
+#contaLogo {
+    position: absolute;
+    top: 8px;
+    left: 220px;
+    width: 12px;
+    height: 7px;
+}
+
+#contaLogo2 {
+    position: absolute;
+    top: 8px;
+    left: 220px;
+    width: 7px;
+    height: 12px;
+}
+
+
+.tarifas {
+    display: flex;
+    margin-top: 0px;
+
+}
+
+#tarifasLogo {
+    padding-left: 24px;
+    margin-top: 5px;
+}
+
+.tarifasLabel {
+    position: relative;
+    left: 39px;
+    padding-bottom: 1px;
+}
+
+#declaracao {
+    position: relative;
+
+    align-items: center;
+}
+
+#declaracaoLogo {
+    padding-left: 24px;
+
+}
+
+.declaracaoLabel {
+    position: relative;
+    left: 39px;
+
+}
