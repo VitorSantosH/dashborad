@@ -104,28 +104,28 @@ const MinhaConta = () => {
 
             <div className="dropdown" style={{ display: display }}>
 
-                <div className="tarifas" style={style1}>
+                <div className="item" style={{color: style1.color}}>
 
-                    <img src={marcador} alt="" className="marcador" style={{ display: style1.display }} />
+                    <img src={marcador} alt="" className="marcador" style={{display: style1.display}} />
 
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" id="tarifasLogo" height="15.889" viewBox="0 0 16 15.889">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" className="itemLogo" height="15.889" viewBox="0 0 16 15.889">
                         <path id="Path_8437" data-name="Path 8437" fill={style1.color || "white"} d="M1.008-7.847A3.354,3.354,0,0,0,4.35-4.439,3.372,3.372,0,0,0,7.713-7.847a3.391,3.391,0,0,0-3.364-3.43A3.373,3.373,0,0,0,1.008-7.847Zm1.261,0a2.112,2.112,0,0,1,2.08-2.169,2.117,2.117,0,0,1,2.1,2.169A2.111,2.111,0,0,1,4.35-5.7,2.107,2.107,0,0,1,2.269-7.847ZM10.3,1.071a3.354,3.354,0,0,0,3.342,3.408,3.372,3.372,0,0,0,3.364-3.408,3.391,3.391,0,0,0-3.364-3.43A3.373,3.373,0,0,0,10.3,1.071Zm1.261,0a2.093,2.093,0,1,1,4.183,0,2.092,2.092,0,1,1-4.183,0ZM14-11.344,3,3.793l1.018.752,11-15.137Z" transform="translate(-1.008 11.344)" opacity="1" />
                     </svg>
 
-                    <span className="tarifasLabel" value={1} onClick={e => marcar(e.target.attributes.value)} >Tarifas</span>
+                    <span className="itemLabel" value={1} onClick={e => marcar(e.target.attributes.value)} >Tarifas</span>
 
 
                 </div>
 
-                <div id="declaracao" style={style2}>
+                <div className="item" style={{color: style2.color}}>
 
                     <img src={marcador} alt="" className="marcador" style={{ display: style2.display }} />
 
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" id="declaracaoLogo" height="13.13" viewBox="0 0 16 13.13">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" className="itemLogo" height="13.13" viewBox="0 0 16 13.13">
                         <path id="Union_313" data-name="Union 313" fill={style2.color || "white"} d="M1.833,13.13A1.822,1.822,0,0,1,0,11.324V4.431a1.821,1.821,0,0,1,1.833-1.8H3.28v.984H1.833A.828.828,0,0,0,1,4.431v6.893a.828.828,0,0,0,.834.82H14.167a.828.828,0,0,0,.834-.82V4.431a.828.828,0,0,0-.834-.82h-2.78V2.626h2.78A1.821,1.821,0,0,1,16,4.431v6.893a1.822,1.822,0,0,1-1.833,1.805ZM2.5,10.175V9.191h11v.985ZM2.15,8.384a.489.489,0,0,1-.13-.474L2.61,5.705a.485.485,0,0,1,.13-.223L8.16.144a.5.5,0,0,1,.706,0l1.65,1.625a.488.488,0,0,1,0,.7L5.1,7.8a.493.493,0,0,1-.226.128L2.63,8.513a.566.566,0,0,1-.127.015A.5.5,0,0,1,2.15,8.384Zm1.391-2.3L3.2,7.345l1.279-.332,4.972-4.9-.942-.929Zm6.291.809V5.908H13.5v.985Z" opacity="1" />
                     </svg>
 
-                    <span className="declaracaoLabel" value={2} onClick={e => marcar(e.target.attributes.value)} >Declaração de Conta</span>
+                    <span className="itemLabel" value={2} onClick={e => marcar(e.target.attributes.value)} >Declaração de Conta</span>
 
                 </div>
             </div>

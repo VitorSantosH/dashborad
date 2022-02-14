@@ -13,6 +13,19 @@
 
 }
 
+.item {
+    margin-top: 20px;
+}
+
+#itemLogo {
+    padding-left: 24px;
+}
+
+.itemLabel {
+    position: relative;
+    left: 39px;
+}
+
 
 .marcador {
     position: absolute;
@@ -24,69 +37,6 @@
     color: white;
 }
 
-#depositarLogo {
-    padding-left: 24px;
-}
-
-.depositarLabel {
-    position: relative;
-    left: 39px;
-}
-
-.cobrar {
-    margin-top: 20px;
-}
-
-#cobrarLogo {
-    padding-left: 24px;
-}
-
-.cobrarLabel {
-    position: relative;
-    left: 39px;
-}
-
-.realizarPix {
-    margin-top: 20px;
-}
-
-#pixLogo {
-    padding-left: 24px;
-}
-
-.pixLabel {
-    position: relative;
-    left: 39px;
-}
-
-.pagarContas {
-    margin-top: 20px;
-}
-
-#pagarLogo {
-    padding-left: 24px;
-}
-
-.pagarLabel {
-    position: relative;
-    left: 39px;
-}
-
-
-.transferir {
-    margin-top: 20px;
-
-}
-
-#transferirLogo {
-    padding-left: 24px;
-    margin-top: 5px;
-}
-
-.transferirLabel {
-    position: relative;
-    left: 39px;
-}
 
 #labelServ {
     margin-left: 24px;

@@ -108,26 +108,26 @@ const ServicosBancarios = () => {
                 <br />
                 <br />
                 <div className="dropdown" style={{ display: display }} >
-                    <div className="depositar" key={1} style={style1} >
+                    <div className="item" key={1} style={{color: style1.color}} >
 
                         <img src={marcador} alt="" className="marcador" style={{ display: style1.display }} />
 
-                        <svg xmlns="http://www.w3.org/2000/svg" value={1} onClick={e => marcar(e.target.attributes.value)} id='depositarLogo' width="15.862" height="17.625" viewBox="0 0 15.862 17.625">
+                        <svg xmlns="http://www.w3.org/2000/svg" value={1} onClick={e => marcar(e.target.attributes.value)} id='itemLogo' width="15.862" height="17.625" viewBox="0 0 15.862 17.625">
                             <g id="receive" transform="translate(0 0)" opacity="1">
                                 <path id="Path_8254" data-name="Path 8254" fill={style1.color || "white"} d="M15.922,130.644H14.6v-2.2a.441.441,0,0,0-.441-.441H12.4a.441.441,0,0,0,0,.881h1.322v1.762H2.262a.881.881,0,1,1,0-1.762h2.2a.441.441,0,1,0,0-.881h-2.2A1.764,1.764,0,0,0,.5,129.762v9.694a1.764,1.764,0,0,0,1.762,1.762H15.922a.441.441,0,0,0,.441-.441v-9.694A.441.441,0,0,0,15.922,130.644ZM2.262,140.337a.882.882,0,0,1-.881-.881V131.28a1.743,1.743,0,0,0,.881.245H15.481v2.644H12.4a.441.441,0,0,0-.441.441v2.644a.441.441,0,0,0,.441.441h3.084v2.644Zm13.218-3.525H12.837V135.05h2.644Zm0,0" transform="translate(-0.5 -123.594)" />
                                 <path id="Path_8255" data-name="Path 8255" fill={style1.color || "white"} d="M156.464,6.072a.442.442,0,0,0,.551,0l2.2-1.762a.441.441,0,0,0-.551-.688l-1.487,1.19V.441a.441.441,0,1,0-.881,0V4.811l-1.487-1.19a.441.441,0,1,0-.551.688Zm0,0" transform="translate(-148.809 0)" />
                             </g>
                         </svg>
-                        <span className="depositarLabel" value={1} onClick={e => marcar(e.target.attributes.value)} >Depositar</span>
+                        <span className="itemLabel" value={1} onClick={e => marcar(e.target.attributes.value)} >Depositar</span>
 
 
                     </div>
 
-                    <div className="cobrar" key={2} style={style2}>
+                    <div className="item" key={2} style={{color: style2.color}}>
 
                         <img src={marcador} alt="" className="marcador" style={{ display: style2.display }} />
 
-                        <svg xmlns="http://www.w3.org/2000/svg" value='2' onClick={e => marcar(e.target.attributes.value)} id='cobrarLogo' width="16" height="14" viewBox="0 0 16 14">
+                        <svg xmlns="http://www.w3.org/2000/svg" value='2' onClick={e => marcar(e.target.attributes.value)} id='itemLogo' width="16" height="14" viewBox="0 0 16 14">
                             <g id="Group_5759" data-name="Group 5759" transform="translate(0 0)" opacity="1">
                                 <path id="Path_8174" data-name="Path 8174" d="M23.5,26H21.833A.834.834,0,0,1,21,25.166v-3H19.5a.5.5,0,0,1-.353-.853l3.167-3.167a.5.5,0,0,1,.707,0l3.167,3.167a.5.5,0,0,1-.353.853h-1.5v3A.834.834,0,0,1,23.5,26ZM22,25h1.333V21.667a.5.5,0,0,1,.5-.5h.793l-1.959-1.959-1.959,1.959H21.5a.5.5,0,0,1,.5.5Z" transform="translate(-10.334 -12)" fill={style2.color || "white"} />
                                 <path id="Path_8175" data-name="Path 8175" d="M13.5,21H7.833A1.835,1.835,0,0,1,6,19.167V10.833A1.835,1.835,0,0,1,7.833,9H20.166A1.835,1.835,0,0,1,22,10.833v4.333H21V10.833A.834.834,0,0,0,20.166,10H7.833A.834.834,0,0,0,7,10.833v8.333A.834.834,0,0,0,7.833,20H13.5Z" transform="translate(-6 -9)" fill={style2.color || "white"} />
@@ -136,7 +136,7 @@ const ServicosBancarios = () => {
                             </g>
                         </svg>
 
-                        <span className="cobrarLabel" value='2' onClick={e => marcar(e.target.attributes.value)}>
+                        <span className="itemLabel" value='2' onClick={e => marcar(e.target.attributes.value)}>
                             Cobrar
                         </span>
 
@@ -145,11 +145,11 @@ const ServicosBancarios = () => {
 
 
 
-                    <div className="realizarPix">
+                    <div className="item">
 
                         <img src={marcador} alt="" className="marcador" style={{ display: style3.display }} />
 
-                        <svg xmlns="http://www.w3.org/2000/svg" value='3' onClick={e => marcar(e.target.attributes.value)} id='pixLogo' width="16" height="15.887" viewBox="0 0 16 15.887">
+                        <svg xmlns="http://www.w3.org/2000/svg" value='3' onClick={e => marcar(e.target.attributes.value)} id='itemLogo' width="16" height="15.887" viewBox="0 0 16 15.887">
                             <g id="Group_5758" data-name="Group 5758" transform="translate(308.136 -934.478)" opacity="1">
                                 <path id="path2376" d="M406.124,433.624l1.8,1.8a3.192,3.192,0,0,0,.558.447l-1.582,1.582a1.236,1.236,0,0,1-1.748,0l-1.509-1.509a3.192,3.192,0,0,0,.663-.51l1.814-1.814m0-1.291a.426.426,0,0,0-.295.118l-2.253,2.253a2.185,2.185,0,0,1-1.548.644h-.071a.156.156,0,0,0-.111.267l2.576,2.576a2.274,2.274,0,0,0,3.215,0l2.851-2.851h-.276a2.185,2.185,0,0,1-1.549-.644l-2.244-2.245a.426.426,0,0,0-.295-.118Zm4.364,3.007h0Z" transform="translate(-706.146 511.509)" fill={style3.color || "white"} />
                                 <path id="path2380" d="M406.325,352.158a1.227,1.227,0,0,1,.874.362l1.582,1.582a3.186,3.186,0,0,0-.556.445l-1.806,1.806-1.812-1.812a3.2,3.2,0,0,0-.665-.512l1.507-1.507,0,0a1.227,1.227,0,0,1,.874-.362m0-1.038a2.266,2.266,0,0,0-1.607.666h0l-2.53,2.529a.183.183,0,0,0,.13.313h.006a2.185,2.185,0,0,1,1.549.644l2.253,2.253a.417.417,0,0,0,.59,0l2.245-2.245a2.184,2.184,0,0,1,1.549-.644h.276l-2.851-2.851a2.266,2.266,0,0,0-1.607-.666Z" transform="translate(-706.441 583.358)" fill={style3.color || "white"} />
@@ -157,17 +157,17 @@ const ServicosBancarios = () => {
                             </g>
                         </svg>
 
-                        <span className="pixLabel" value='3' style={{ color: style3.color }} onClick={e => marcar(e.target.attributes.value)}>
+                        <span className="itemLabel" value='3' style={{ color: style3.color }} onClick={e => marcar(e.target.attributes.value)}>
                             Realizar PIX
                         </span>
 
                     </div>
 
-                    <div className="pagarContas" style={{ display: style4.display }}>
+                    <div className="item">
 
                         <img src={marcador} alt="" className="marcador" style={{ display: style4.display }} />
 
-                        <svg xmlns="http://www.w3.org/2000/svg" value='4' onClick={e => marcar(e.target.attributes.value)} id='pagarLogo' width="16" height="12.188" viewBox="0 0 16 12.188">
+                        <svg xmlns="http://www.w3.org/2000/svg" value='4' onClick={e => marcar(e.target.attributes.value)} id='itemLogo' width="16" height="12.188" viewBox="0 0 16 12.188">
                             <g id="barcode_1_" data-name="barcode (1)" transform="translate(0 0)" opacity="1">
                                 <path id="Path_8256" data-name="Path 8256" d="M2.969,61H1.094A1.1,1.1,0,0,0,0,62.094v1.875a.469.469,0,1,0,.938,0V62.094a.156.156,0,0,1,.156-.156H2.969a.469.469,0,1,0,0-.937Z" transform="translate(0 -61)" fill={style4.color || "white"} />
                                 <path id="Path_8257" data-name="Path 8257" d="M2.969,343.5H1.094a.156.156,0,0,1-.156-.156v-1.875a.469.469,0,0,0-.938,0v1.875a1.1,1.1,0,0,0,1.094,1.094H2.969a.469.469,0,1,0,0-.937Z" transform="translate(0 -332.25)" fill={style4.color || "white"} />
@@ -187,15 +187,15 @@ const ServicosBancarios = () => {
                             </g>
                         </svg>
 
-                        <span value='4' className='pagarLabel' style={{ color: style4.color }} onClick={e => marcar(e.target.attributes.value)}> Pagar Contas</span>
+                        <span value='4' className='itemLabel' style={{ color: style4.color }} onClick={e => marcar(e.target.attributes.value)}> Pagar Contas</span>
 
                     </div>
 
-                    <div className="transferir">
+                    <div className="item">
 
                         <img src={marcador} alt="" className="marcador" style={{ display: style5.display }} />
 
-                        <svg xmlns="http://www.w3.org/2000/svg" id='transferirLogo' width="16" height="14" viewBox="0 0 16 14">
+                        <svg xmlns="http://www.w3.org/2000/svg" id='itemLogo' width="16" height="14" viewBox="0 0 16 14">
                             <g id="Group_5750" data-name="Group 5750" transform="translate(0 0)" opacity="1">
                                 <path id="Path_8174" data-name="Path 8174" d="M23.5,26H21.833A.834.834,0,0,1,21,25.166v-3H19.5a.5.5,0,0,1-.353-.853l3.167-3.167a.5.5,0,0,1,.707,0l3.167,3.167a.5.5,0,0,1-.353.853h-1.5v3A.834.834,0,0,1,23.5,26ZM22,25h1.333V21.667a.5.5,0,0,1,.5-.5h.793l-1.959-1.959-1.959,1.959H21.5a.5.5,0,0,1,.5.5Z" transform="translate(-10.334 -12)" fill={style5.color || "white"} />
                                 <path id="Path_8175" data-name="Path 8175" d="M13.5,21H7.833A1.835,1.835,0,0,1,6,19.167V10.833A1.835,1.835,0,0,1,7.833,9H20.166A1.835,1.835,0,0,1,22,10.833v4.333H21V10.833A.834.834,0,0,0,20.166,10H7.833A.834.834,0,0,0,7,10.833v8.333A.834.834,0,0,0,7.833,20H13.5Z" transform="translate(-6 -9)" fill={style5.color || "white"} />
@@ -205,7 +205,7 @@ const ServicosBancarios = () => {
                         </svg>
 
 
-                        <span value='5' className='transferirLabel' style={{ color: style5.color }} onClick={e => marcar(e.target.attributes.value)}>Transferir TED/DOC</span>
+                        <span value='5' className='itemLabel' style={{ color: style5.color }} onClick={e => marcar(e.target.attributes.value)}>Transferir TED/DOC</span>
 
                     </div>
 
