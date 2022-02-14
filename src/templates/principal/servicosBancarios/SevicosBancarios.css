@@ -1,59 +1,115 @@
-.servicosBancarios{
+
+
+.servicosBancarios {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    top: 400px;
+    top: 381px;
     position: relative;
+    font-family: soleil, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font: soleil;
+
 }
-.marcador{
+
+
+.marcador {
     position: absolute;
     display: none;
 }
-.div1{
+
+.div1 {
     width: 256px;
     color: white;
 }
-#depositarLogo{
+
+#depositarLogo {
     padding-left: 24px;
 }
-.depositarLabel{
-    position: relative;
-    left: 39px;
-}
-.cobrar{
-    margin-top: 20px;
-}
-#cobrarLogo{
-    padding-left: 24px;
-}
-.cobrarLabel{
+
+.depositarLabel {
     position: relative;
     left: 39px;
 }
 
-.realizarPix{
+.cobrar {
     margin-top: 20px;
 }
-#pixLogo{
+
+#cobrarLogo {
     padding-left: 24px;
 }
-.pixLabel{
+
+.cobrarLabel {
     position: relative;
     left: 39px;
 }
 
-.pagarContas{
+.realizarPix {
     margin-top: 20px;
 }
-#pagarLogo{
+
+#pixLogo {
     padding-left: 24px;
 }
-.pagarLabel{
+
+.pixLabel {
     position: relative;
     left: 39px;
 }
 
-.div2{
+.pagarContas {
+    margin-top: 20px;
+}
+
+#pagarLogo {
+    padding-left: 24px;
+}
+
+.pagarLabel {
+    position: relative;
+    left: 39px;
+}
+
+
+.transferir {
+    margin-top: 20px;
+
+}
+
+#transferirLogo {
+    padding-left: 24px;
+    margin-top: 5px;
+}
+
+.transferirLabel {
+    position: relative;
+    left: 39px;
+}
+
+#labelServ {
+    margin-left: 24px;
+    
+    font-family: soleil, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#servLogo{
+    position: absolute;
+    top: 8px;
+    left: 220px;
+    width: 12px;
+    height: 7px;
+}
+#servLogo2{
+    position: absolute;
+    top: 8px;
+    left: 220px;
+    width: 7px;
+    height: 12px;
+}
+.div2 {
     width: 256px;
     padding-left: 24px;
     color: white;
