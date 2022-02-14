@@ -1,23 +1,25 @@
 .minhaConta {
-    margin-top: 20px;
-    color: white;
-    font-family: soleil, sans-serif;
+    margin-top: 40px;
+    padding-top: 10px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     position: relative;
-    font-weight: 400;
+    font-family: soleil, sans-serif;
+    font-weight: 700;   
     font-style: normal;
-    font: soleil;
+    color: white;
+ 
 
 }
 #contaLabel{
     margin-left: 24px;
     padding-bottom: 10px;
+
 }
 #contaLogo {
     position: absolute;
-    top: 8px;
+    top: 14px;
     left: 220px;
     width: 12px;
     height: 7px;
@@ -25,10 +27,10 @@
 
 #contaLogo2 {
     position: absolute;
-    top: 8px;
+    top: 14px;
     left: 220px;
-    width: 7px;
-    height: 12px;
+    width: 12px;
+    height: 7px;
 }
 
 
@@ -36,7 +38,8 @@
     display: flex;
     margin-top: 15px;
     align-items: center;
- 
+    color: rgb(231, 226, 226);
+    padding-top: 30px;
 
 }
 
@@ -51,6 +54,10 @@
     position: absolute;
     left: 80px;
     padding-bottom: 1px;
+    font-size: 16px;
+    font-family: soleil, sans-serif;
+    font-weight: 100;
+    font-style: normal;
     
 
 }

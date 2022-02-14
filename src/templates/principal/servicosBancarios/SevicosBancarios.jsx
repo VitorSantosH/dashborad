@@ -104,9 +104,7 @@ const ServicosBancarios = () => {
                     <img src={arrow} alt="" id="servLogo2" onClick={e => dropdown()} />
                 )}
 
-                <br />
-                <br />
-                <br />
+            
                 <div className="dropdown" style={{ display: display }} >
                     <div className="item" key={1} style={{color: style1.color}} >
 
@@ -212,7 +210,7 @@ const ServicosBancarios = () => {
                 </div>
 
             </div>
-            
+       
             <MinhaConta className="div2"/>
         </div>
     )

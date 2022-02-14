@@ -51,7 +51,7 @@ const Inicio = () => {
     return (
         <div className="inicio">
 
-            <div className="home" style={style1} >
+            <div className="home" style={{color: style1.color}} >
 
                 <img src={marcador} alt="" className="marcador"  style={{display: style1.display}} />
 
@@ -82,7 +82,7 @@ const Inicio = () => {
                 </svg>
                 <span className="comprovantesLabel" value='3' onClick={e => marcar(e.target.attributes.value)} >Comprovantes</span>
             </div>
-
+            
 
 
         </div>

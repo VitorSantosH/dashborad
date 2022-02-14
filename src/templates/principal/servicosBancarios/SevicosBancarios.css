@@ -1,20 +1,22 @@
-
-
 .servicosBancarios {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    top: 381px;
+    top: 361px;
     position: relative;
     font-family: soleil, sans-serif;
-    font-weight: 400;
+    font-weight: 700;
     font-style: normal;
-    font: soleil;
+    color: white;
+   
 
 }
 
 .item {
-    margin-top: 20px;
+    margin-top: 15px;
+    color: rgb(231, 226, 226);
+    padding-top: 30px;
+    
 }
 
 #itemLogo {
@@ -40,23 +42,24 @@
 
 #labelServ {
     margin-left: 24px;
-    
     font-family: soleil, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    
+    font-weight: 700;
+    font-style: bold;
+
 }
-#servLogo{
+
+#servLogo {
     position: absolute;
     top: 8px;
     left: 220px;
     width: 12px;
     height: 7px;
 }
-#servLogo2{
+
+#servLogo2 {
     position: absolute;
     top: 8px;
     left: 220px;
-    width: 7px;
-    height: 12px;
+    width: 12px;
+    height: 7px;
 }
