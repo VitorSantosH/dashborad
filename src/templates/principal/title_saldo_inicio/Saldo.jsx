@@ -1,12 +1,12 @@
 import React, { useState } from "react";
-import ver1 from '../../assets/Group25748.png'
-import ver2 from '../../assets/Group 5748.png'
+import ver1 from '../../../assets/Group25748.png'
+import ver2 from '../../../assets/Group 5748.png'
 
 const Saldo = (props) => {
     const user = props.user
     const vizualizar = [ver1, ver2]
     const [num, setnum] = useState(0);
-    const [estilo, setEestilo ] = useState({})
+    const [estilo, setEestilo ] = useState({color: "transparent", textShadow:' 0 0 10px  rgba(56, 210, 217, 1)' })
 
 
     function blur() {

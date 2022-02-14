@@ -1,0 +1,61 @@
+.servicosBancarios{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    top: 400px;
+    position: relative;
+}
+.marcador{
+    position: absolute;
+    display: none;
+}
+.div1{
+    width: 256px;
+    color: white;
+}
+#depositarLogo{
+    padding-left: 24px;
+}
+.depositarLabel{
+    position: relative;
+    left: 39px;
+}
+.cobrar{
+    margin-top: 20px;
+}
+#cobrarLogo{
+    padding-left: 24px;
+}
+.cobrarLabel{
+    position: relative;
+    left: 39px;
+}
+
+.realizarPix{
+    margin-top: 20px;
+}
+#pixLogo{
+    padding-left: 24px;
+}
+.pixLabel{
+    position: relative;
+    left: 39px;
+}
+
+.pagarContas{
+    margin-top: 20px;
+}
+#pagarLogo{
+    padding-left: 24px;
+}
+.pagarLabel{
+    position: relative;
+    left: 39px;
+}
+
+.div2{
+    width: 256px;
+    padding-left: 24px;
+    color: white;
+
+}

@@ -1,0 +1,63 @@
+@import url("https://use.typekit.net/jhy2fkp.css");
+
+.inicio{
+    color: white;
+}
+.home {
+    position: absolute;
+    top: 205px;
+    display: flex;
+    align-items: center;
+    color: whitesmoke;
+    
+}
+
+#inicioLabel {
+
+    font-family: soleil, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 40px;
+    font-size: 16px;
+}
+.logoHome{
+    width: 16px;
+    height: 16px;
+    padding-left: 25px;
+}
+
+.extrato{
+    position: absolute;
+    top: 261px;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+}
+.extratoLogo{
+    margin-left: 25px;
+    width: 16px;
+    height: 16px;
+}
+.extratoLabel{
+    margin-left: 40px;
+}
+.comprovantes{
+    position: absolute;
+    top: 315px;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+}
+.comprovantesLogo{
+    margin-left: 26px;
+    width: 16px;
+    height: 16px;
+}
+.comprovantesLabel{
+    margin-left: 40px;
+
+}
+.marcador{
+    position: absolute;
+    display: none;
+}

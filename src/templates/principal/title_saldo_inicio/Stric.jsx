@@ -1,12 +1,12 @@
 import React from "react";
 
-import union from '../../assets/Union 2@2x.png';
-import s from '../../assets/Path 2.png';
-import t from '../../assets/Path 4.png';
-import r from '../../assets/Path 5.png';
-import i from '../../assets/Path 6.png';
-import ponto from '../../assets/Ellipse 1.png'
-import c from '../../assets/Path 3.png';
+import union from '../../../assets/Union 2@2x.png';
+import s from '../../../assets/Path 2.png';
+import t from '../../../assets/Path 4.png';
+import r from '../../../assets/Path 5.png';
+import i from '../../../assets/Path 6.png';
+import ponto from '../../../assets/Ellipse 1.png'
+import c from '../../../assets/Path 3.png';
 
 const Stric = () => {
     return (
