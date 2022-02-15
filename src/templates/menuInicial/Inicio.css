@@ -1,0 +1,68 @@
+.inicioMenu {
+    color: #282A3A;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 35px;
+    padding-top: 36px;
+    padding-bottom: 32px;
+    height: 88px;
+    box-sizing: border-box
+}
+
+.spanInicio {
+    padding-left: 16px;
+    font-size: 18px;
+    font-family: soleil, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.accountName {
+    width: 286px;
+    height: 56px;
+    border: 1px solid #E3E3E3;
+    border-radius: 8px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 16px;
+    padding-left: 16px;
+    box-sizing: border-box
+}
+
+.dados {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.name {
+    font-family: soleil, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.cnpj {
+    font-family: soleil, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #A3A3A3;
+
+}
+
+.part1 {
+    width: calc(100% - 286px);
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
+#notificacoes {
+    position: relative;
+    top: -12px;
+    left: -8px;
+}
