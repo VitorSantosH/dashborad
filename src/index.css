@@ -30,6 +30,8 @@ body {
     line-height: 1;
     font-family: soleil, sans-serif;
     height: 100vh;
+    min-width: 1280px;
+    width: 100vw;
 
 }
 ol, ul {

@@ -4,6 +4,7 @@ import "./Cards.css"
 
 
 import marcador from '../../assets/Rectangle 5976.png';
+
 const Cards = (props) => {
 
     const user = props.user;
