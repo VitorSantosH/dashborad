@@ -19,14 +19,7 @@ const MinhaConta = () => {
     const Marcado = { color: "#38D2D9", display: 'block' }
     const desmarcado = { color: "white", display: 'none' }
 
-    function dropdown() {
-
-        if (display == "block") {
-            setDisplay("none");
-        } else (
-            setDisplay('block')
-        )
-    }
+  
 
 
     function marcar(value) {
@@ -86,16 +79,17 @@ const MinhaConta = () => {
 
     return (
         <div className="minhaConta">
-            <span onClick={e => dropdown()} id="contaLabel" >Minha Conta</span>
+            <span onClick={e =>setDisplay('none')} style={{display: display}} id="contaLabel" >Minha Conta</span>
+            {display == "none" && <span onClick={e => setDisplay("block")}  id="contaLabel" >Minha Conta</span>}
             {display != "none" && (
-                <svg xmlns="http://www.w3.org/2000/svg" width="11.692" onClick={e => dropdown()} id="contaLogo" height="6.769" viewBox="0 0 11.692 6.769">
+                <svg xmlns="http://www.w3.org/2000/svg" width="11.692" onClick={e =>setDisplay('none')} id="contaLogo" height="6.769" viewBox="0 0 11.692 6.769">
                     <g id="arrow-point-to-right" transform="translate(11.94) rotate(90)">
                         <path id="Path_8214" data-name="Path 8214" d="M6.526,6.425,1.42,11.452a.841.841,0,0,1-1.176,0,.81.81,0,0,1,0-1.158L4.762,5.846.244,1.4A.81.81,0,0,1,.244.24.841.841,0,0,1,1.42.24L6.526,5.267a.81.81,0,0,1,0,1.158Z" transform="translate(0 0.248)" fill="#38d2d9" />
                     </g>
                 </svg>
             )}
             {display == "none" && (
-                <img src={arrow} alt="" id="contaLogo2" onClick={e => dropdown()} />
+                <img src={arrow} alt="" id="contaLogo2" onClick={e => setDisplay('block')} />
             )}
 
 

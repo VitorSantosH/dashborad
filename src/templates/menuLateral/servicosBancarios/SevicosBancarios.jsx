@@ -18,31 +18,20 @@ const ServicosBancarios = () => {
     const [style4, setStyle4] = useState({ color: "white", value: '4' });
     const [style5, setStyle5] = useState({ color: "white", value: '5' });
 
-    const Marcado = { color: "#38D2D9", display: 'block' }
+    const Marcado = { color: "#38D2D9", display: "block" }
     const desmarcado = { color: "white", display: 'none' }
 
-    function dropdown() {
-       
-        if (display == "block") {
-            setDisplay("none");
-        } else (
-            setDisplay('block')
-        )
-    }
+
 
 
     function marcar(value) {
         return setimp(value.value)
     }
 
-
+   
 
     useEffect(() => {
 
-
-
-
-      
         if (importante == 1) {
             console.log('imp')
             setStyle1({ ...Marcado });
@@ -92,21 +81,23 @@ const ServicosBancarios = () => {
         <div className="servicosBancarios">
             <div className="div1" >
 
-                <span onClick={e => dropdown()} id="labelServ" >Serviços Bancários</span>
+                <span onClick={e => setDisplay("none")} style={{display: display}} id="labelServ" >Serviços Bancários</span>
+                {display == "none" && <span onClick={e => setDisplay("block")}  id="labelServ" >Serviços Bancários</span>}
+
                 {display != "none" && (
-                    <svg xmlns="http://www.w3.org/2000/svg" width="11.692" onClick={e => dropdown()} id="labelServ" id="servLogo" height="6.769" viewBox="0 0 11.692 6.769">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="11.692" onClick={e => setDisplay("none")} id="labelServ" id="servLogo" height="6.769" viewBox="0 0 11.692 6.769">
                         <g id="arrow-point-to-right" transform="translate(11.94) rotate(90)">
                             <path id="Path_8214" data-name="Path 8214" d="M6.526,6.425,1.42,11.452a.841.841,0,0,1-1.176,0,.81.81,0,0,1,0-1.158L4.762,5.846.244,1.4A.81.81,0,0,1,.244.24.841.841,0,0,1,1.42.24L6.526,5.267a.81.81,0,0,1,0,1.158Z" transform="translate(0 0.248)" fill="#38d2d9" />
                         </g>
                     </svg>
                 )}
                 {display == "none" && (
-                    <img src={arrow} alt="" id="servLogo2" onClick={e => dropdown()} />
+                    <img src={arrow} alt="" id="servLogo2" onClick={e => setDisplay("block")} />
                 )}
 
-            
+
                 <div className="dropdown" style={{ display: display }} >
-                    <div className="item" key={1} style={{color: style1.color}} >
+                    <div className="item" key={1} style={{ color: style1.color }} >
 
                         <img src={marcador} alt="" className="marcador" style={{ display: style1.display }} />
 
@@ -121,7 +112,7 @@ const ServicosBancarios = () => {
 
                     </div>
 
-                    <div className="item" key={2} style={{color: style2.color}}>
+                    <div className="item" key={2} style={{ color: style2.color }}>
 
                         <img src={marcador} alt="" className="marcador" style={{ display: style2.display }} />
 
@@ -139,7 +130,7 @@ const ServicosBancarios = () => {
                         </span>
 
                     </div>
-                    
+
 
 
 
@@ -210,8 +201,8 @@ const ServicosBancarios = () => {
                 </div>
 
             </div>
-       
-            <MinhaConta className="div2"/>
+
+            <MinhaConta className="div2" />
         </div>
     )
 }
