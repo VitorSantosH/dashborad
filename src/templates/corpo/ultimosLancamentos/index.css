@@ -1,0 +1,40 @@
+.ultimosLancamentos {
+    position: relative;
+    width: 592px;
+    height: 600px;
+    margin: 32px;
+    background-color: white;
+    border-radius: 8px;
+    color: #142249;
+    box-sizing: border-box;
+}
+
+.marcadorLancamentos {
+    position: relative;
+    left: 0px;
+    width: 4px;
+    height: 16px;
+}
+
+.titulo {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    display: flex;
+    align-items: center;
+
+}
+
+.tituloLancamentos {
+    position: relative;
+    left: 32px;
+}
+
+.Extrato {
+    position: relative;
+    left: 227px;
+}
+
+#hrLancamentos {
+    background-color: #F7F6F8;
+    color: #F7F6F8;
+}

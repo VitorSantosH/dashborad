@@ -48,7 +48,7 @@ const Cards = (props) => {
                 <h1 className="valorCards"> {user.boletosAberto.toLocaleString('pt-br', { style: 'currency', currency: 'BRL' })}</h1>
             </card>
 
-            <card className="card" id='info' style={{ backgroundColor: 'rgba(255, 255, 255, 0.2)' }} >
+            <card  id='info' style={{ backgroundColor: 'rgba(255, 255, 255, 0.2)' }} >
 
                 <span>
                     <h1 style={{color: 'white'}}>{user.name}{" "} {user.complementoNome}</h1>

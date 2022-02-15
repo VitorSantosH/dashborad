@@ -41,9 +41,15 @@
 
 #info {
 
-    padding-left: 32px;
-    padding-top: 12px;
+    position: relative;
+    width: 280px;
+    height: 128px;
+    border-radius: 8px;
+    margin-right: 32px;  
     box-sizing: border-box;
     color: #dddddd;
-    line-height: 2vh;
+    line-height: 20px;
+    padding-left:  16px;
+    padding-top: 14px;
+    
 }

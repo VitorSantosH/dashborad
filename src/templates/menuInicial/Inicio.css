@@ -8,7 +8,8 @@
     padding-top: 36px;
     padding-bottom: 32px;
     height: 88px;
-    box-sizing: border-box
+    box-sizing: border-box;
+    background-color: white;
 }
 
 .spanInicio {
