@@ -7,15 +7,18 @@
     padding-left: 32px;
     color: white;
     font-family: soleil, sans-serif;
+    box-sizing: border-box;
 }
 
 .card {
 
     position: relative;
-    width: 280px;
-    height: 128px;
+    min-width: 280px;
+    min-height: 128px;
     border-radius: 8px;
     margin-right: 32px;
+    margin-top: 32px;
+    margin-bottom: 32px;
 }
 
 .labelCards {

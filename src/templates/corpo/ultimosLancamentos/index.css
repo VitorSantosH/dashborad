@@ -35,6 +35,12 @@
 }
 
 #hrLancamentos {
-    background-color: #F7F6F8;
-    color: #F7F6F8;
+
+    border-color: #ffffff;
+}
+
+hr {
+
+    border-color: #F7F6F8;
+
 }
