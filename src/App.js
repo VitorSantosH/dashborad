@@ -5,6 +5,7 @@ import Menu from './templates/menuLateral/MenuLateral';
 import Inicio from './templates/menuInicial/Inicio';
 import Cards from './templates/cardsTopo/Cards';
 import Corpo from './templates/corpo';
+
 const user = {
   saldo: 18231.24,
   name : 'Martin Ferramentas',
